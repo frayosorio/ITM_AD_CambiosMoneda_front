@@ -2,8 +2,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { PaisComponent } from './pais.component';
 import { Observable, of } from 'rxjs';
 import { MatDialogModule } from '@angular/material/dialog';
-import { PaisService } from '../../servicios/pais.service';
-import { MonedaService } from '../../servicios/moneda.service';
+import { PaisService } from '../../../core/servicios/pais.service';
+import { MonedaService } from '../../../core/servicios/moneda.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 

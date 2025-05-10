@@ -3,7 +3,7 @@ import { TestBed } from '@angular/core/testing';
 import { PaisService } from './pais.service';
 
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
-import { Pais } from '../../core/entidades/pais';
+import { Pais } from '../../shared/entidades/pais';
 import { environment } from '../../../environments/environment';
 
 

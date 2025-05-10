@@ -1,7 +1,7 @@
 import { Component, Inject } from '@angular/core';
-import { Pais } from '../../../core/entidades/pais';
+import { Pais } from '../../../shared/entidades/pais';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
-import { Moneda } from '../../../core/entidades/moneda';
+import { Moneda } from '../../../shared/entidades/moneda';
 import { ReferenciasMaterialModule } from '../../../shared/modulos/referencias-material.module';
 import { FormsModule } from '@angular/forms';
 import { NgFor } from '@angular/common';

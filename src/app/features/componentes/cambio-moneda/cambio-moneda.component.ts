@@ -3,10 +3,10 @@ import { ReferenciasMaterialModule } from '../../../shared/modulos/referencias-m
 import { ColumnMode, NgxDatatableModule, SelectionType } from '@swimlane/ngx-datatable';
 import { HttpClientModule, HttpErrorResponse } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { CambioMoneda } from '../../../core/entidades/cambiomoneda';
-import { Moneda } from '../../../core/entidades/moneda';
+import { CambioMoneda } from '../../../shared/entidades/cambiomoneda';
+import { Moneda } from '../../../shared/entidades/moneda';
 import { MatDialog } from '@angular/material/dialog';
-import { MonedaService } from '../../servicios/moneda.service';
+import { MonedaService } from '../../../core/servicios/moneda.service';
 import { Router } from '@angular/router';
 import { DecidirComponent } from '../../../shared/componentes/decidir/decidir.component';
 import { CambioMonedaEditarComponent } from '../cambio-moneda-editar/cambio-moneda-editar.component';

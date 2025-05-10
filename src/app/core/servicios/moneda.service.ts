@@ -2,8 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from '../../../environments/environment';
 import { Observable } from 'rxjs';
-import { Moneda } from '../../core/entidades/moneda';
-import { CambioMoneda } from '../../core/entidades/cambiomoneda';
+import { Moneda } from '../../shared/entidades/moneda';
+import { CambioMoneda } from '../../shared/entidades/cambiomoneda';
 
 @Injectable({
   providedIn: 'root'

@@ -3,14 +3,14 @@ import { FormsModule } from '@angular/forms';
 import { ReferenciasMaterialModule } from '../../../shared/modulos/referencias-material.module';
 import { ColumnMode, NgxDatatableModule, SelectionType } from '@swimlane/ngx-datatable';
 import { HttpClientModule, HttpErrorResponse } from '@angular/common/http';
-import { Pais } from '../../../core/entidades/pais';
+import { Pais } from '../../../shared/entidades/pais';
 import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
-import { PaisService } from '../../servicios/pais.service';
+import { PaisService } from '../../../core/servicios/pais.service';
 import { PaisEditarComponent } from '../pais-editar/pais-editar.component';
 import { DecidirComponent } from '../../../shared/componentes/decidir/decidir.component';
-import { Moneda } from '../../../core/entidades/moneda';
-import { MonedaService } from '../../servicios/moneda.service';
+import { Moneda } from '../../../shared/entidades/moneda';
+import { MonedaService } from '../../../core/servicios/moneda.service';
 
 @Component({
   selector: 'app-pais',
